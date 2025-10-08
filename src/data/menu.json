@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "仪表盘",
+    "path": "/dashboard",
+    "icon": "Odometer",
+    "children": []
+  },
+  {
+    "id": 21,
+    "name": "病例登记",
+    "path": "/cases/register",
+    "icon": "Edit"
+  },
+  {
+    "id": 2,
+    "name": "病例管理",
+    "path": "/cases",
+    "icon": "Document",
+    "children": [
+      {
+        "id": 22,
+        "name": "病例列表",
+        "path": "/cases/list",
+        "icon": "List"
+      },
+      {
+        "id": 23,
+        "name": "病例查询",
+        "path": "/cases/search",
+        "icon": "Search"
+      }
+    ]
+  },
+ 
+  {
+    "id": 5,
+    "name": "数据统计",
+    "path": "/statistics",
+    "icon": "DataAnalysis",
+    "children": [
+      {
+        "id": 51,
+        "name": "病例统计",
+        "path": "/statistics/cases",
+        "icon": "TrendCharts"
+      },
+      {
+        "id": 52,
+        "name": "医生统计",
+        "path": "/statistics/doctors",
+        "icon": "User"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "系统管理",
+    "path": "/system",
+    "icon": "Setting",
+    "children": [
+      {
+        "id": 61,
+        "name": "字典管理",
+        "path": "/system/dict",
+        "icon": "Notebook"
+      },
+      {
+        "id": 62,
+        "name": "个人资料",
+        "path": "/profile",
+        "icon": "User"
+      },
+      {
+        "id": 4,
+        "name": "医生管理",
+        "path": "/doctors",
+        "icon": "User",
+        "children": [
+          {
+            "id": 41,
+            "name": "医生列表",
+            "path": "/doctors/list",
+            "icon": "List"
+          }
+        ]
+      }
+    ]
+  }
+]

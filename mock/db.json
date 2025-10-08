@@ -1,0 +1,340 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123456",
+      "name": "管理员",
+      "email": "admin@example.com",
+      "role": "admin",
+      "status": "active"
+    }
+  ],
+  "cases": [
+    {
+      "id": 1,
+      "caseNumber": "CASE10000",
+      "patientName": "张三",
+      "gender": "男",
+      "age": 25,
+      "phone": "13810000000",
+      "doctor": "张医生",
+      "department": "内科",
+      "specimenType": "组织活检",
+      "specimenMaterial": "送检材料描述0",
+      "clinicalDiagnosis": "临床诊断描述0",
+      "status": "已登记",
+      "createTime": "2024-10-05T17:51:36.000Z",
+      "collectionStatus": "待取材",
+      "collectionTime": null,
+      "collector": "",
+      "collectionSite": "",
+      "blockCount": 0,
+      "collectionDescription": "",
+      "diagnosisStatus": "待诊断",
+      "diagnosisTime": null,
+      "diagnostician": "",
+      "microscopicFindings": "",
+      "pathologicalDiagnosis": "",
+      "immunohistochemistry": "",
+      "specialStaining": "",
+      "molecularTesting": "",
+      "diagnosisOpinion": "",
+      "remark": ""
+    },
+    {
+      "id": 2,
+      "caseNumber": "CASE10001",
+      "patientName": "李四",
+      "gender": "女",
+      "age": 30,
+      "phone": "13810000001",
+      "doctor": "李医生",
+      "department": "外科",
+      "specimenType": "细胞学",
+      "specimenMaterial": "送检材料描述1",
+      "clinicalDiagnosis": "临床诊断描述1",
+      "status": "已接收",
+      "createTime": "2024-10-04T17:51:36.000Z",
+      "collectionStatus": "取材中",
+      "collectionTime": null,
+      "collector": "",
+      "collectionSite": "",
+      "blockCount": 0,
+      "collectionDescription": "",
+      "diagnosisStatus": "诊断中",
+      "diagnosisTime": null,
+      "diagnostician": "",
+      "microscopicFindings": "",
+      "pathologicalDiagnosis": "",
+      "immunohistochemistry": "",
+      "specialStaining": "",
+      "molecularTesting": "",
+      "diagnosisOpinion": "",
+      "remark": ""
+    },
+    {
+      "id": 3,
+      "caseNumber": "CASE10002",
+      "patientName": "王五",
+      "gender": "男",
+      "age": 35,
+      "phone": "13810000002",
+      "doctor": "王医生",
+      "department": "妇产科",
+      "specimenType": "体液",
+      "specimenMaterial": "送检材料描述2",
+      "clinicalDiagnosis": "临床诊断描述2",
+      "status": "检测中",
+      "createTime": "2024-10-03T17:51:36.000Z",
+      "collectionStatus": "已完成",
+      "collectionTime": "2024-10-05T16:51:36.000Z",
+      "collector": "张医生",
+      "collectionSite": "取材部位描述2",
+      "blockCount": 5,
+      "collectionDescription": "取材过程描述2",
+      "diagnosisStatus": "已诊断",
+      "diagnosisTime": "2024-10-05T17:21:36.000Z",
+      "diagnostician": "张医生",
+      "microscopicFindings": "镜下所见描述2",
+      "pathologicalDiagnosis": "病理诊断结果2",
+      "immunohistochemistry": "免疫组化结果2",
+      "specialStaining": "特殊染色结果2",
+      "molecularTesting": "分子检测结果2",
+      "diagnosisOpinion": "诊断意见2",
+      "remark": "备注信息2"
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "name": "张医生1",
+      "gender": "男",
+      "department": "内科",
+      "title": "主任医师",
+      "phone": "13810000000",
+      "email": "doctor1@hospital.com",
+      "status": "在职",
+      "createTime": "2024-10-05T17:51:36.000Z",
+      "remark": "资深专家"
+    },
+    {
+      "id": 2,
+      "name": "李医生2",
+      "gender": "女",
+      "department": "外科",
+      "title": "副主任医师",
+      "phone": "13810000001",
+      "email": "doctor2@hospital.com",
+      "status": "在职",
+      "createTime": "2024-10-04T17:51:36.000Z",
+      "remark": ""
+    },
+    {
+      "id": 3,
+      "name": "王医生3",
+      "gender": "男",
+      "department": "妇产科",
+      "title": "主治医师",
+      "phone": "13810000002",
+      "email": "doctor3@hospital.com",
+      "status": "在职",
+      "createTime": "2024-10-03T17:51:36.000Z",
+      "remark": "资深专家"
+    }
+  ],
+  "dictTypes": [
+    {
+      "id": 1,
+      "name": "标本类型",
+      "code": "specimen_type",
+      "status": "启用",
+      "remark": "病理标本类型",
+      "createTime": "2024-01-01"
+    },
+    {
+      "id": 2,
+      "name": "科室类型",
+      "code": "department_type",
+      "status": "启用",
+      "remark": "医院科室分类",
+      "createTime": "2024-01-01"
+    },
+    {
+      "id": 3,
+      "name": "医生职称",
+      "code": "doctor_title",
+      "status": "启用",
+      "remark": "医生职称等级",
+      "createTime": "2024-01-01"
+    },
+    {
+      "id": 4,
+      "name": "病例状态",
+      "code": "case_status",
+      "status": "启用",
+      "remark": "病例处理状态",
+      "createTime": "2024-01-01"
+    },
+    {
+      "id": 5,
+      "name": "检测方法",
+      "code": "test_method",
+      "status": "启用",
+      "remark": "病理检测方法",
+      "createTime": "2024-01-01"
+    }
+  ],
+  "dictData": [
+    {
+      "id": 1,
+      "typeId": 1,
+      "label": "组织活检",
+      "value": "tissue_biopsy",
+      "sort": 1,
+      "status": "启用",
+      "remark": "组织标本活检",
+      "createTime": "2024-01-01"
+    },
+    {
+      "id": 2,
+      "typeId": 1,
+      "label": "细胞学",
+      "value": "cytology",
+      "sort": 2,
+      "status": "启用",
+      "remark": "细胞学检查",
+      "createTime": "2024-01-01"
+    },
+    {
+      "id": 3,
+      "typeId": 1,
+      "label": "体液",
+      "value": "body_fluid",
+      "sort": 3,
+      "status": "启用",
+      "remark": "体液标本",
+      "createTime": "2024-01-01"
+    },
+    {
+      "id": 4,
+      "typeId": 1,
+      "label": "血液",
+      "value": "blood",
+      "sort": 4,
+      "status": "启用",
+      "remark": "血液标本",
+      "createTime": "2024-01-01"
+    },
+    {
+      "id": 5,
+      "typeId": 1,
+      "label": "骨髓",
+      "value": "bone_marrow",
+      "sort": 5,
+      "status": "启用",
+      "remark": "骨髓标本",
+      "createTime": "2024-01-01"
+    },
+    {
+      "id": 6,
+      "typeId": 2,
+      "label": "内科",
+      "value": "internal_medicine",
+      "sort": 1,
+      "status": "启用",
+      "remark": "内科科室",
+      "createTime": "2024-01-01"
+    },
+    {
+      "id": 7,
+      "typeId": 2,
+      "label": "外科",
+      "value": "surgery",
+      "sort": 2,
+      "status": "启用",
+      "remark": "外科科室",
+      "createTime": "2024-01-01"
+    },
+    {
+      "id": 8,
+      "typeId": 2,
+      "label": "妇产科",
+      "value": "obstetrics_gynecology",
+      "sort": 3,
+      "status": "启用",
+      "remark": "妇产科室",
+      "createTime": "2024-01-01"
+    },
+    {
+      "id": 9,
+      "typeId": 2,
+      "label": "儿科",
+      "value": "pediatrics",
+      "sort": 4,
+      "status": "启用",
+      "remark": "儿科室",
+      "createTime": "2024-01-01"
+    },
+    {
+      "id": 10,
+      "typeId": 2,
+      "label": "肿瘤科",
+      "value": "oncology",
+      "sort": 5,
+      "status": "启用",
+      "remark": "肿瘤科室",
+      "createTime": "2024-01-01"
+    },
+    {
+      "id": 11,
+      "typeId": 3,
+      "label": "主任医师",
+      "value": "chief_physician",
+      "sort": 1,
+      "status": "启用",
+      "remark": "主任医师",
+      "createTime": "2024-01-01"
+    },
+    {
+      "id": 12,
+      "typeId": 3,
+      "label": "副主任医师",
+      "value": "associate_chief_physician",
+      "sort": 2,
+      "status": "启用",
+      "remark": "副主任医师",
+      "createTime": "2024-01-01"
+    },
+    {
+      "id": 13,
+      "typeId": 3,
+      "label": "主治医师",
+      "value": "attending_physician",
+      "sort": 3,
+      "status": "启用",
+      "remark": "主治医师",
+      "createTime": "2024-01-01"
+    },
+    {
+      "id": 14,
+      "typeId": 3,
+      "label": "住院医师",
+      "value": "resident_physician",
+      "sort": 4,
+      "status": "启用",
+      "remark": "住院医师",
+      "createTime": "2024-01-01"
+    },
+    {
+      "id": 15,
+      "typeId": 3,
+      "label": "实习医师",
+      "value": "intern_physician",
+      "sort": 5,
+      "status": "启用",
+      "remark": "实习医师",
+      "createTime": "2024-01-01"
+    }
+  ]
+}
